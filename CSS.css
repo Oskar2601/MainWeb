@@ -1,0 +1,194 @@
+body {
+   background-color: rgb(29, 29, 29);
+}
+
+
+@font-face {
+   font-family: 'uni sans regular';
+   src: url('Fonts/uni_sans_regular-webfont.woff2') format('woff2'),
+      url('Fonts/uni_sans_regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+
+#TextBox {
+   position: fixed;
+   bottom: 8px;
+   left: 8px;
+   height: 1pc;
+   outline: none;
+   margin-left: left;
+   width: calc(100% - 55px);
+}
+
+
+#SendMessageBtn {
+   position: fixed;
+   right: 8px;
+   bottom: 8px;
+   width: 28px;
+   height: 22px;
+   background-color: rgb(105, 160, 243);
+   border: none;
+   border-radius: 2px;
+}
+
+#SendMessageLogo {
+   position: relative;
+   opacity: 0.6;
+   top: 2px;
+   left: 1px;
+   color: rgb(12, 12, 129);
+}
+
+#IntroMessage {
+   color: yellow;
+   font-family: 'Uni Sans Regular';
+   font-size: large;
+}
+
+#IntroDiv {
+   text-align: center;
+   margin-left: 35%;
+   margin-right: 35%;
+   margin-bottom: 25px;
+}
+
+
+.MessageAuthor {
+   color: white;
+   font-family: 'Uni Sans Regular';
+   font-size: large;
+   margin-right: 6px;
+}
+
+.Message {
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(255, 98, 98);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideBorder {
+   from {background-color: red;}
+   to {background-color: yellow;}
+}
+
+
+
+@keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+}
